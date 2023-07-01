@@ -1,3 +1,7 @@
+body {
+  background-color: #fbfbfb;
+}
+
 .main {
   max-width: 800px;
   margin: auto;
@@ -5,7 +9,7 @@
 
 .web {
   font-family: 'Courier New', Courier, monospace;
-  margin-bottom: 5em;
+  margin-bottom: 0;
 }
 
 .web h1 {
@@ -21,6 +25,7 @@ form > div {
   border: 2px solid black;
   font-size: 1.5em;
   font-family: 'Courier New', Courier, monospace;
+  background-color: white;
 }
 
 .error {
@@ -42,10 +47,18 @@ form > div {
 
 .print {
   font-family: 'Times New Roman', Times, serif;
-  border: 1px solid black;
+  border: 1px solid darkgray;
   padding: 15px;
   padding-bottom: 100px;
   margin-bottom: 5em;
+  transform: translateX(21px) rotate(-3deg);
+  box-shadow: -5px -4px 7px lightgrey;
+  min-width: 500px;
+  background-color: white;
+}
+
+hr {
+  border: 0.5px solid black;
 }
 
 @media print {
@@ -60,5 +73,8 @@ form > div {
   .print {
     border: none;
     padding: auto;
+    margin: none;
+    transform: none;
+    box-shadow: none;
   }
 }

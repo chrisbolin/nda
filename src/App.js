@@ -110,7 +110,7 @@ function App() {
         This document enables the Undersigned to truthfully respond that they "signed an NDA."
         There are almost certainly no further benefits.
         No lawyer has reviewed this Aggreement.
-        This Agreement is best thought of as lazy legal fan fiction.
+        This Agreement is best thought of as poorly researched fan fiction.
 
         <h2>V. Signatures</h2>
 
