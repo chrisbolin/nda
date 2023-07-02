@@ -80,7 +80,6 @@ function App() {
           <strong>Just sign an NDA.</strong>
         </p>
 
-        <button onClick={() => console.log('!!!')}>help</button>
         <form>
           <div>
             Your full name:<br />
