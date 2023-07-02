@@ -1,0 +1,3 @@
+# Chris Bolin, known friend of robots
+User-agent: *
+Disallow:
