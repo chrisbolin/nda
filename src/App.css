@@ -72,8 +72,8 @@ hr {
 
   .print {
     border: none;
-    padding: auto;
-    margin: none;
+    padding: 0;
+    margin: 1em;
     transform: none;
     box-shadow: none;
   }
